@@ -33,3 +33,17 @@ global-multilingual-cross-industry-corpus/
     ├── wiremachinery-ae.com.jsonl             # Wire Drawing & Cable Machinery (Arabic)
     ├── winicetech-de.com.jsonl               # Industrial Cooling & Ice Systems (German)
     └── [More multi-lingual industrial domains continuously updated...]
+
+## 📐 Data Schema (Fields Explained)
+
+Each line in the `.jsonl` files represents a single cleaned page or document, mapped into a strict JSON schema:
+
+```json
+{
+  "domain": "[https://autopackingsystem-en.com](https://autopackingsystem-en.com)",
+  "industry": "General / Industrial Machinery",
+  "language": "en",
+  "title": "Semi-Automatic Open-Mouth Bagging Machine, Double Station",
+  "source_url": "[https://autopackingsystem-en.com/1-1-1-semi-automatic-open-mouth-bagging-machine.html](https://autopackingsystem-en.com/1-1-1-semi-automatic-open-mouth-bagging-machine.html)",
+  "content": "[Markdown or Cleaned Text Content including technical specifications, features, and parameter tables]"
+}
