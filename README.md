@@ -1,10 +1,10 @@
 # Global Multilingual Cross-Industry Corpus
 
-A highly structured, clean, and comprehensive cross-industry text corpus compiled across enterprise domains, covering multiple manufacturing sectors and languages. This dataset is explicitly optimized for Vertical Industry LLM Fine-tuning, Multi-lingual Machine Translation (MT), Domain-Specific RAG (Retrieval-Augmented Generation) systems, and AI crawler evaluation.
+A highly structured, clean, and comprehensive cross-industry text corpus compiled across specialized enterprise domains, covering multiple manufacturing sectors and global languages. This dataset is explicitly optimized for Vertical Industry LLM Fine-tuning, Multi-lingual Machine Translation (MT), Domain-Specific RAG (Retrieval-Augmented Generation) systems, and AI crawler evaluation.
 
 ## 📊 Dataset Overview
 
-Unlike mixed general-purpose datasets, this corpus focuses strictly on industrial, machinery, and B2B corporate content. It contains high-density, real-world business data including technical specifications, operational workflows, product FAQs, and system configurations.
+Unlike mixed general-purpose datasets, this corpus focuses strictly on industrial, heavy machinery, and B2B corporate content. It contains high-density, real-world technical specifications, operational workflows, product FAQs, and engineering parameter configurations.
 
 - **Data Format:** JSON Lines (`.jsonl`) — supporting optimized stream-reading for large model pipelines.
 - **Organization:** Fragmented and categorized by `domain-source` and `language` for targeted downloading.
@@ -12,8 +12,8 @@ Unlike mixed general-purpose datasets, this corpus focuses strictly on industria
 
 ## 📅 Dataset Status & Update Plan
 
-- **Current Status:** 🚀 **Initial Batch Released.** We have uploaded a curated sample of domains focusing on industrial packaging automation and heavy machinery to gather community feedback.
-- **Next Update:** We manage a massive pipeline of thousands of multi-lingual enterprise domains. Full-scale thematic data (covering Chemical Processing, Agriculture, Feed Mill Engineering, etc.) will be progressively synchronized based on community engagement and repository stars.
+- **Current Status:** 🚀 **Initial Batch Released.** We have uploaded a curated selection of 30+ core domain-language pairs to gather community feedback.
+- **Next Update:** We manage a massive pipeline of thousands of multi-lingual enterprise domains. Full-scale datasets will be progressively synchronized based on community engagement and repository stars.
 - **Request a Domain/Industry:** If you need specific industrial vertical data or certain language pairs immediately, please open an Issue!
 
 ## 📂 Repository Structure
@@ -25,7 +25,11 @@ global-multilingual-cross-industry-corpus/
 ├── LICENSE
 ├── README.md
 └── data/
-    ├── autopackingsystem-en.com.jsonl       # English packaging machinery corpus
-    ├── autopackingsystem-ae.com.jsonl       # Arabic packaging machinery corpus
-    ├── blistermachine-ru.com.jsonl           # Russian blister machine corpus
-    └── [More multi-lingual industrial domains will be continuously uploaded...]
+    ├── autopackingsystem-en.com.jsonl       # Packaging Machinery (English)
+    ├── autopackingsystem-ae.com.jsonl       # Packaging Machinery (Arabic)
+    ├── blistermachine-ru.com.jsonl           # Blister Packaging Machines (Russian)
+    ├── filmmachine-fr.com.jsonl               # Film Co-extrusion Machinery (French)
+    ├── groutpump-ar.com.jsonl                 # Grouting & Mortar Pumps (Arabic)
+    ├── wiremachinery-ae.com.jsonl             # Wire Drawing & Cable Machinery (Arabic)
+    ├── winicetech-de.com.jsonl               # Industrial Cooling & Ice Systems (German)
+    └── [More multi-lingual industrial domains continuously updated...]
